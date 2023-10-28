@@ -27,7 +27,7 @@
     ?>
     <h1>Smiley Face Counter (Test4)</h1>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <label for="input">Enter smiley faces (separated by commas):</label>
+        <label for="input">Enter smiley faces (separated by ','):</label>
         <input type="text" name="input" id="input" required>
         <input type="submit" value="Count Smiley Faces">
     </form>
