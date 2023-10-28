@@ -14,7 +14,7 @@ function findOddNumbers($input) {
     });
     //find expression match
     if (preg_match('/[a-zA-Z]/', $input)) {
-        echo "Error: Letters are not allowed. Please enter only numbers separated by commas.";
+        echo "Error: Letters are not allowed.";
     } elseif (empty($oddOccurrences)) {
         echo "No numbers appear an odd number of times in the input.";
     } else {
@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 <h1>Display Odd Number (Test3)</h1>
 <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-    <label for="user_input">Enter numbers separated by commas:</label>
+    <label for="user_input">Enter numbers separated by ',':</label>
     <input type="text" name="user_input" id="user_input">
     <input type="submit" value="Submit">
 </form>
