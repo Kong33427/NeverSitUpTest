@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <h1>Display Unique Shuffle Possibilities (Test2)</h1>
 <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-    <label for="input">Enter something:</label>
+    <label for="input">Input:</label>
     <input type="text" name="input" id="input">
     <input type="submit" value="Submit">
 </form>
