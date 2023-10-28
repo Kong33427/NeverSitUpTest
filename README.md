@@ -1,6 +1,6 @@
 # Never SitUpTest
 For sending Logictest Question
-<h1> Init project </h1>
+<h2> Init project </h2>
 
 Mahidol University
 Smart College Plan Manager
